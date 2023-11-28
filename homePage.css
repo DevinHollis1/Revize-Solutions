@@ -1,0 +1,63 @@
+/* homepage.css */
+
+.overlay-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.overlay-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #041d36; 
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; 
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; 
+}
+
+/* Connect Facebook Button Styles */
+.btn-primary {
+    background-color: #3b5998; /* Facebook blue color */
+    border-color: #3b5998; /* Facebook blue color */
+    margin-right: 10px;
+}
+
+/* Search and Go Button Styles */
+.form-inline .form-control,
+.form-inline .btn-light {
+    border-color: #ffffff;
+}
+
+.form-inline .btn-light {
+    background-color: #ffffff;
+    color: #343a40; 
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ffffff; 
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40; 
+    color: #ffffff; 
+}
+
+
